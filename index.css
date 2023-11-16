@@ -1,0 +1,71 @@
+header 
+{
+    font-family: 'Playpen Sans', cursive;
+}
+  
+header nav 
+{
+    min-height: 80px;
+    /* color: white; */
+}
+  
+header nav ul li a 
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+nav a::after 
+{
+    content: "";
+    background: white;
+    margin: 0 auto;
+    display: block;
+    height: 1px;
+    width: 0%;
+    transition: 80ms;
+}
+  
+nav a:hover::after 
+{
+    width: 100%;
+}
+  
+main 
+{
+    min-height: 800px;
+    margin: 0;
+    padding: 0;
+    background-image: url("IMG/pexels-efrem-efre-15679681.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+  
+footer
+{
+    min-height: 85px;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Playpen Sans', cursive;
+}
+.span2
+{
+    font-size:x-large;
+    text-decoration: none;
+}
+  
+footer a i
+{
+    color: white;
+    text-decoration: none;
+}
+  
+ 
